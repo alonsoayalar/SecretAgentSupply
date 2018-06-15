@@ -132,4 +132,51 @@ img {
   padding: 0.5rem;
 }
 
+.section3 {
+display: flex;
+width: 100%;
+margin: 3em 0 0 0;
+display: inline-flex;
+justify-content: center;
+}
+
+.section3 .container {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .rectangle {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 0 4rem 0;
+}
+
+.rectangle #black {
+  background-color: black;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.rectangle h2 {
+  color:black;
+}
+
 /* Footer */
+
+footer {
+display: flex;
+width: 100%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+height:5rem;
+}
+
+.footer {
+}
+
+footer h2 {
+  width: 960px;
+}
