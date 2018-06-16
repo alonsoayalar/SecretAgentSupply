@@ -180,3 +180,152 @@ height:5rem;
 footer h2 {
   width: 960px;
 }
+
+@media screen and (max-width: 1024px) {
+  #glasses {
+    display: none;
+  }
+
+  .section2 .square {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+    width: 47%;
+}
+
+   .normal {
+     display: none;
+     text-align: center;
+   }
+
+   ul {
+     width: 960px;
+     display: flex;
+     justify-content: center;
+   }
+
+   .background {
+     background-color: black;
+     width: 26rem;
+     margin-top: 9rem;
+     font-weight: bold;
+     margin-bottom: 6rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+   }
+
+   .background h1 {
+     font-size: 2rem;
+     margin-left: 3rem;
+     display: flex;
+     margin-bottom: 2rem;
+   }
+}
+
+
+
+@media screen and (min-width:1025px){
+  nav .mobile {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 470px) {
+
+  .section1 {
+    height: 15rem;
+    width:100%;
+    background-image: url('../images/moto.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .section1 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    height:5rem;
+    padding-bottom: 1rem;
+
+  }
+
+.section1 h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    width: 100%;
+    margin:0;
+    padding-left: 2rem;
+    z-index: 3;
+    color: white;
+    display: flex;
+
+}
+
+.section1 h2 {
+  font-size: 0.77rem;
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  Margin:0;
+  padding-left: 2rem;
+  z-index: 4;
+  color: white;
+}
+
+  #watch {
+    display: none;
+  }
+
+  .section2 .square {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
+    width: 90%;
+}
+
+.section2 .container {
+  display: flex;
+  justify-content: center;
+}
+
+.section3 .container {
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  margin-top: 3rem;
+}
+.section3 .rectangle {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+footer {
+display: flex;
+width: 100%;
+display: inline-flex;
+
+background-color: black;
+height:5rem;
+}
+
+footer h2 {
+  display: flex;
+  color: white;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+}
+}
